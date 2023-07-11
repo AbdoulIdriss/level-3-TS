@@ -1,0 +1,32 @@
+TypesScipt is a super set of javascript 
+Valid Javascript is valide TyperScript but not the reverse 
+
+All typescript files ends with the extenstion .ts
+
+A primitive datatype is not an object, it posssesses no properties or methods and the cannot be altered 
+
+methods are actions that can be performed on objects
+
+example of methods 
+Include()
+some()
+every()
+filter()
+map()
+flatMap()
+reduce()
+reverse()
+sort()
+flat()
+fill()
+find()
+findIndex()
+forEach()
+concat()
+
+Build-in Datatypes in TS
+number, strings, Boolean ,Object ,Symbol ,undefined , any , unknown ,never ,void
+
+Symbol
+
+Type inference is when you allow the typescript compiler to infer the type of a value or variable based on the data that is assigned to that value or that variable

@@ -1,0 +1,18 @@
+              Characteristics of observables 
+
+Observables provide a unified way to work with different kinds of data. 
+That is, observables can emit a single value or a sequence of values, synchronously or asynchronously, lazily (cold) or eagerly (hot), unicast to a single consumer (cold), or multicast to multiple consumer (hot).
+
+           Characteristics of subjects
+
+It allows values to be multicasted to many observers
+
+With subjects you receive the next values in the stream of values from the time of subscription
+
+            Chacteristics of behavioral subjects 
+
+It's used when you want all the subscribers to receive the last emitted value
+
+BehaviorSubject remembers the last emitted value and gives it to whoever subscribes to it.
+
+With BehaviorSubject you receive the last value as at the time of subscription as well as the next values in the stream
